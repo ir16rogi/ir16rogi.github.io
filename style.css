@@ -31,6 +31,10 @@ h1{
   height: 60vh;
   background-image: linear-gradient(to bottom, #1F1F1F, transparent);
 }
+#twitch{
+  width: 100%;
+  height: 25vh;
+}
 
 #portada button{
   border: transparent;
@@ -42,7 +46,7 @@ h1{
 }
 iframe{
   height: 50vh;
-  width: 100%;
+  width: 49.8%;
 }
 
 @media only screen and (max-width: 980px){
@@ -51,10 +55,17 @@ iframe{
     margin: 0;
   }
 
+  iframe{
+    width: 100%;
+  }
+
   #titulo{
     height: 10vh;
   }
   #portada{
     height: 16vh;
+  }
+  #twitch{
+    height: 10vh;
   }
 }
